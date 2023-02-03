@@ -10,11 +10,13 @@ public class Primenumber {
 		int i;
 		for (i = 2; i < num; i++) {
 			if (num % i == 0) {
-				System.out.println("the number is not prime");
+				break;
 			}
 		}
 		if (num == i) {
 			System.out.println("the number is  prime");
+		} else {
+			System.out.println("the number is not  prime");
 		}
 
 	}
