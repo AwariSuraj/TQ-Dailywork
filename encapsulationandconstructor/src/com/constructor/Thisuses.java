@@ -17,20 +17,22 @@ class Chain {
 	}
 
 	Chain(int a) {
-		this();
+		this();/*
+				 * this.a=a; this.b=b this.c=c;
+				 */
 		this.a = a;
 
 	}
 
 	Chain(int a, int b) {
-		this();
+
 		this.a = a;
 		this.b = b;
 
 	}
 
 	Chain(int a, int b, int c) {
-
+		this(a, b);
 		this.a = a;
 		this.b = b;
 		this.c = c;
@@ -46,7 +48,7 @@ public class Thisuses {
 
 	public static void main(String[] args) {
 
-		Chain c = new Chain(10);
+		Chain c = new Chain(10, 20);
 		System.out.println(c.toString());
 
 	}

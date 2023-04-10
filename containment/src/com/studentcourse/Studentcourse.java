@@ -17,6 +17,7 @@ public class Studentcourse {
 
 		courseDetails(c);
 		s.setCourse(c);
+
 	}
 
 	public static void courseDetails(Course c1) {
